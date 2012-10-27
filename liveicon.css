@@ -1,0 +1,44 @@
+
+root { 
+    display: block;
+}
+
+body{
+    font-family: tahoma;
+    font-size:13px;
+}
+
+.live{
+    position: relative;
+    text-align: center;
+    padding:5px;
+    width:100px;
+    height:100px;
+    border-radius: 3px;
+}
+.live .subpages{
+    width: 100%;
+    overflow: hidden;
+    height:90px;
+
+}
+.live .subpages .subpage{
+    height:90px;
+    width: 100%;
+    overflow: hidden;
+}
+.live .label{
+    position: absolute;
+    bottom:5px;
+    left:5px;
+    font-size:13px;
+    font-weight: bold;
+}
+.live .notification{
+    position: absolute;
+    bottom:5px;
+    right:5px;
+    font-size: 1.1em;
+    font-weight:bold;
+}
+
